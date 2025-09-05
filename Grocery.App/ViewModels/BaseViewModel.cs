@@ -1,4 +1,6 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿// wijziging test
+
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Grocery.App.ViewModels
 {
