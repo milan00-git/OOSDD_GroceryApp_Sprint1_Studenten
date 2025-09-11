@@ -2,7 +2,7 @@
 using Grocery.Core.Models;
 using System.Collections.ObjectModel;
 
-// nieuwe wijzigingen voor testen pipeline
+// .NET 8.0 geïnstalleerd, weg uit Visual Studio preview versie
 
 namespace Grocery.App.ViewModels
 {
