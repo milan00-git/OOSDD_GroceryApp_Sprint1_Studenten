@@ -2,7 +2,7 @@
 using Grocery.Core.Models;
 using System.Collections.ObjectModel;
 
-// test wijziging voor workflow en testen in pipeline
+// nieuwe wijzigingen voor testen pipeline
 
 namespace Grocery.App.ViewModels
 {
