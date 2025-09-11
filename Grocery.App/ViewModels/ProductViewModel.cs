@@ -2,6 +2,8 @@
 using Grocery.Core.Models;
 using System.Collections.ObjectModel;
 
+// test wijziging voor workflow en testen in pipeline
+
 namespace Grocery.App.ViewModels
 {
     public class ProductViewModel : BaseViewModel
