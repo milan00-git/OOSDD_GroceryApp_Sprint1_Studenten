@@ -1,26 +1,28 @@
-﻿using Grocery.Core.Interfaces.Repositories;
+﻿using System.Net.Http.Headers;
+using Grocery.Core.Interfaces.Repositories;
 using Grocery.Core.Models;
 
 namespace Grocery.Core.Data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
+        //C# list 
         private readonly List<Product> products;
         public ProductRepository()
         {
+            //products lists consists products
             products = [
-                /* 
-                 * initieer de lijst met 4 nieuwe producten: 
-                 * Melk[voorraad 300], 
-                 * Kaas[voorraad 100], 
-                 * Brood[voorraad 400] en 
-                 * Cornflakes[voorraad 0]
-                */
-				];
+
+                new Product(1, "melk", 300),
+                new Product(2, "kaas", 100),
+                new Product(3, "brood", 400),
+                new Product(4, "cornflakes", 0)
+
+                ];
         }
         public List<Product> GetAll()
         {
-            return []; //wijzig dit in de gemaakte lijst uit de constructo
+            return products; //wijzig dit in de gemaakte lijst uit de constructor
         }
 
         public Product? Get(int id)
