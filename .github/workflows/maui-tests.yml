@@ -32,6 +32,3 @@ jobs:
  
       - name: Voer unit tests uit
         run: dotnet test --configuration Release --no-restore --no-build --verbosity normal
-
-      - name: Install MAUI workload
-        run: dotnet workload install maui
