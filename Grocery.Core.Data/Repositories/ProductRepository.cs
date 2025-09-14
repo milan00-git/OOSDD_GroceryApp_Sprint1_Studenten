@@ -1,6 +1,7 @@
 ﻿using Grocery.Core.Interfaces.Repositories;
 using Grocery.Core.Models;
 
+// wijziging voor pull request
 namespace Grocery.Core.Data.Repositories
 {
     public class ProductRepository : IProductRepository
